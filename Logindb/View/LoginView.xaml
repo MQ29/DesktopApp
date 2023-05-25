@@ -9,7 +9,20 @@
         WindowStyle="None"
         ResizeMode="NoResize"
         WindowStartupLocation="CenterScreen"
-        MouseDown="Window_MouseDown">
-        
-    
+        MouseDown="Window_MouseDown"
+        Background="Transparent"
+        AllowsTransparency="True">
+
+    <Border CornerRadius="50"
+            Background= "#1b1448"
+            BorderThickness="5"
+            >
+        <Border.BorderBrush>
+            <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                <GradientStop Color="#462AD8" Offset="0"></GradientStop>
+            </LinearGradientBrush>
+        </Border.BorderBrush>
+
+    </Border>
+
 </Window>

@@ -1,0 +1,15 @@
+C:\Users\matia\source\repos\Logindb\asadada\bin\Debug\net6.0\asadada.exe
+C:\Users\matia\source\repos\Logindb\asadada\bin\Debug\net6.0\asadada.deps.json
+C:\Users\matia\source\repos\Logindb\asadada\bin\Debug\net6.0\asadada.runtimeconfig.json
+C:\Users\matia\source\repos\Logindb\asadada\bin\Debug\net6.0\asadada.dll
+C:\Users\matia\source\repos\Logindb\asadada\bin\Debug\net6.0\asadada.pdb
+C:\Users\matia\source\repos\Logindb\asadada\obj\Debug\net6.0\asadada.csproj.AssemblyReference.cache
+C:\Users\matia\source\repos\Logindb\asadada\obj\Debug\net6.0\asadada.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\matia\source\repos\Logindb\asadada\obj\Debug\net6.0\asadada.AssemblyInfoInputs.cache
+C:\Users\matia\source\repos\Logindb\asadada\obj\Debug\net6.0\asadada.AssemblyInfo.cs
+C:\Users\matia\source\repos\Logindb\asadada\obj\Debug\net6.0\asadada.csproj.CoreCompileInputs.cache
+C:\Users\matia\source\repos\Logindb\asadada\obj\Debug\net6.0\asadada.dll
+C:\Users\matia\source\repos\Logindb\asadada\obj\Debug\net6.0\refint\asadada.dll
+C:\Users\matia\source\repos\Logindb\asadada\obj\Debug\net6.0\asadada.pdb
+C:\Users\matia\source\repos\Logindb\asadada\obj\Debug\net6.0\asadada.genruntimeconfig.cache
+C:\Users\matia\source\repos\Logindb\asadada\obj\Debug\net6.0\ref\asadada.dll

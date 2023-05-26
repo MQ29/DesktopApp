@@ -9,6 +9,8 @@
 //------------------------------------------------------------------------------
 
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/eagleeelog.jpg")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/key-icon.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/stockmarket.jpg")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/user-icon.png")]
 
 

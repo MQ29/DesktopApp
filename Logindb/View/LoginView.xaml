@@ -19,7 +19,7 @@
     </Window.DataContext>
 
     <Window.Resources>
-        <BooleanToVisibilityConverter x:Key="BoolToVis"
+        <BooleanToVisibilityConverter x:Key="BoolToVis"/>
     </Window.Resources>
     
     <Window.Visibility>

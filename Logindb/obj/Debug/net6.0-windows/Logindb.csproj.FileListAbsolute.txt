@@ -49,3 +49,4 @@ C:\Users\matia\source\repos\Logindb\Logindb\obj\Debug\net6.0-windows\Logindb_Con
 C:\Users\matia\source\repos\Logindb\Logindb\bin\Debug\net6.0-windows\Images\eagleeelog.jpg
 C:\Users\matia\source\repos\Logindb\Logindb\bin\Debug\net6.0-windows\Images\key-icon.png
 C:\Users\matia\source\repos\Logindb\Logindb\bin\Debug\net6.0-windows\Images\user-icon.png
+C:\Users\matia\source\repos\Logindb\Logindb\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs

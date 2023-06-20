@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Logindb.Model;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.CompilerServices;
@@ -6,6 +7,9 @@ using System.Security;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Input;
+using Logindb.Repositories;
+using System.Threading;
+using System.Security.Principal;
 
 namespace Logindb.ViewModel
 {
@@ -16,6 +20,8 @@ namespace Logindb.ViewModel
         private SecureString _password;
         private string _errorMessage;
         public bool _isViewVisible = true;
+
+        private IUserRepository userRepository;
 
         //Properties
 
@@ -69,6 +75,7 @@ namespace Logindb.ViewModel
 
         public LoginViewModel()
         {
+            userRepository = new UserRepository();
             LoginCommand = new ViewModelCommand(ExecuteLoginCommand, CanExecuteLoginCommand);
             RecoverPasswordCommand = new ViewModelCommand(p=>ExecuteRecoverPassCommand("","")); //using 1 parameter ctor
         }
@@ -92,7 +99,16 @@ namespace Logindb.ViewModel
 
         private void ExecuteLoginCommand(object obj)
         {
-            
+            var isValidUser = userRepository.AuthenticateUser(new System.Net.NetworkCredential(Username, Password));
+            if (isValidUser)
+            {
+                Thread.CurrentPrincipal = new GenericPrincipal(new GenericIdentity(Username),null);
+                IsViewVisible = false;
+            }
+            else
+            {
+                ErrorMessage = "* Wrong username or password";
+            }
         }
     }
 }

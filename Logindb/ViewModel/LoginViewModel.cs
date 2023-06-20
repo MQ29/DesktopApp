@@ -92,7 +92,7 @@ namespace Logindb.ViewModel
 
         private void ExecuteLoginCommand(object obj)
         {
-            throw new NotImplementedException();
+            
         }
     }
 }

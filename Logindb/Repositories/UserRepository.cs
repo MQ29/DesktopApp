@@ -30,6 +30,7 @@ namespace Logindb.Repositories
                 validUser = command.ExecuteScalar() == null ? false : true;
 
             }
+            return validUser;
         }
 
         public void Edit(UserModel userModel)

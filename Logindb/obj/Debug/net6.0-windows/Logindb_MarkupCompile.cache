@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 C:\Users\matia\source\repos\Logindb\Logindb\App.xaml
-31361631829
+41709929622
 3-1622980100
-11-1171776172
-1941675070116
-CustomControls\BindablePasswordBox.xaml;MainWindow.xaml;View\LoginView.xaml;
+13-1356598921
+195-551032359
+CustomControls\BindablePasswordBox.xaml;MainWindow.xaml;View\LoginView.xaml;View\MainView.xaml;
 
-False
+True
 

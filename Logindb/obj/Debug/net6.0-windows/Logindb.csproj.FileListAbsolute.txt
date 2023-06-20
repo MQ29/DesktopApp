@@ -51,3 +51,4 @@ C:\Users\matia\source\repos\Logindb\Logindb\bin\Debug\net6.0-windows\Images\user
 C:\Users\matia\source\repos\Logindb\Logindb\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
 C:\Users\matia\source\repos\Logindb\Logindb\obj\Debug\net6.0-windows\CustomControls\BindablePasswordBox.g.cs
 C:\Users\matia\source\repos\Logindb\Logindb\obj\Debug\net6.0-windows\CustomControls\BindablePasswordBox.baml
+C:\Users\matia\source\repos\Logindb\Logindb\obj\Debug\net6.0-windows\View\MainView.g.cs

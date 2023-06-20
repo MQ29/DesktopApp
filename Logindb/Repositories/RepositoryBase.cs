@@ -12,7 +12,7 @@ namespace Logindb.Repositories
         private readonly string _connectionString;
         public RepositoryBase()
         {
-            _connectionString = "Server=(DESKTOP-MHJGK2O); Database=LoginDb; Integrated Security=true";
+            _connectionString = "Data Source=DESKTOP-MHJGK2O;Initial Catalog=LoginDb;Integrated Security=True";
         }
         protected SqlConnection GetConnection()
         {
